@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-item {
+  padding: 7px;
+  margin: 0 20px;
+}
+.nav-item:hover {
+  background-color: #58fa58;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.671));
+}
+
+.banner {
+  background: url("../img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: #ffffff;
+}
+.about {
+  padding-top: 80px;
+}
+
+.about .container {
+  padding: 50px 50px;
+  border: 5px solid transparent;
+  background: linear-gradient(#00f260, #0575e6);
+  border-image: linear-gradient(to bottom, #22c1c3, #fdbb2d);
+  border-image-slice: 1;
+}
+
+.about .container .social-icon a {
+  padding: 30px;
+  padding-bottom: 50px;
+  padding-top: 45px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.about .container .social-icon a:hover {
+  background-color: #1ef502;
+}
+
+.product {
+  background-color: black;
+}
+.product .container {
+  padding: 100px 0;
+}
+
+.product .container .col {
+  color: #ffffff;
+}
+
+.card {
+  margin: 30px 0;
+  background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom, #22c1c3, #fdbb2d);
+  border-image-slice: 1;
+}
+
+.card-body a {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.342));
+}
+
+.address {
+  background: linear-gradient(#00f260, #0575e6);
+  padding-top: 80px;
+}
+
+.address .container {
+  padding: 10px 70px;
+  padding-bottom: 100px;
+  background: white;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom, #22c1c3, #fdbb2d);
+  border-image-slice: 1;
+}
+.address .container .box {
+  padding: 10px;
+  display: inline-block;
+}
+.address .container h1 {
+  float: right;
+  padding-right: 250px;
+  padding-top: 200px;
+}
+
+.contact {
+  background-color: #0575e6;
+}
+
+.contact .container {
+  padding: 170px 0;
+}
+
+.contact form {
+  background-color: black;
+  padding: 30px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+}
